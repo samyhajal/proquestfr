@@ -4485,6 +4485,7 @@ div[class*="box-flat"].box-flat-alt hr {
 .feature .fbox-photo:first-child,
 .feature .fbox-content:first-child {
   margin-top: 0;
+  height: 200px;
 }
 .feature .fbox-over {
   position: absolute;
@@ -4543,6 +4544,9 @@ div[class*="box-flat"].box-flat-alt hr {
   width: 100%;
   height: auto;
   border-radius: 0;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 .feature .fbox-photo.imagebg img {
   display: none;
