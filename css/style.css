@@ -482,11 +482,13 @@ form label.error { display: none !important; }
 
 .img-wrapper { position: absolute; bottom: 0px; max-width: 520px; }
 
-.contact-list { margin-top: 30px; }
+.contact-list { margin-top: 15px; }
 .contact-list:first-child { margin-top: 0; }
 .contact-list li { margin-bottom: 20px; padding-bottom: 0; }
 .contact-list li:last-child { margin-bottom: 0px; }
 .contact-list li .fa { color: #1863AB; font-size: 24px; display: block; width: 30px; float: left; }
+.contact-list-email {margin-bottom: 30px;}
+.contact-list-email .fa{ color: #1863AB; font-size: 24px; display: block; width: 30px; float: left; }
 .contact-list li span { margin-left: 40px; display: block; line-height: 1.4; }
 
 .icon-box { width: 48px; height: 48px; display: inline-block; vertical-align: middle; color: #1863AB; transition: all 0.4s; text-align: center; font-size: 1.25em; line-height: 46px; margin: 2px 0; border: 1px solid transparent; position: relative; }
@@ -546,8 +548,8 @@ form label.error { display: none !important; }
 .site-header .navbar-collapse { padding: 0; background-color: transparent; color: #333; border-top: 0 none; }
 .site-header .logo-light { display: none; }
 .site-header .quote-btn { padding: 0; display: inline-block; }
-.site-header .quote-btn .btn { padding: 6px 25px; font-size: 12px; line-height: 24px; font-weight: 700; text-transform: uppercase; border: 0 none; color: #fff; background-color: #4ac9ff; margin: 0; vertical-align: middle; }
-.site-header .quote-btn .btn:hover { color: #fff; background-color: #1863AB; }
+.site-header .quote-btn .btn { padding: 6px 25px; font-size: 12px; line-height: 24px; font-weight: 700; text-transform: uppercase; border: 0 none; color: #fff; background-color: #1863AB; margin: 0; vertical-align: middle; }
+.site-header .quote-btn .btn:hover { color: #fff; background-color:#4ac9ff }
 
 .topbar { padding: 6px 0; color: #5c5c5c; background: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.06); font-size: 13px; line-height: 1; }
 .topbar .top-aside { line-height: 30px; }
@@ -933,7 +935,7 @@ h1 + .row-quotes, h2 + .row-quotes { margin-top: 45px; }
 .row-quotes > [class*="col-"]:nth-child(even) { padding-left: 30px; }
 
 /* ========================================================================== 10.0 Client Logo ========================================================================== */
-.logo-item { background: #fff; -ms-border-radius: 6px; border-radius: 6px; border: 1px solid rgba(0, 0, 0, 0.04); text-align: center; padding: 10px; }
+.logo-item { text-align: center; padding: 10px; }
 .logo-item img { border: 0 none; border-radius: border-radius(); width: 100%; max-width: 190px; }
 
 .style-v2 .logo-item { background: none; border-color: transparent; }
@@ -1926,3 +1928,9 @@ h3.heading-section + .lead, h3.heading-lead + .lead { margin-top: -5px; }
 .demo-sample-icon .icon-box { margin-right: 10px; }
 
 .demo-sample-icon hr { margin-top: 25px; margin-bottom: 25px; }
+
+.client-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
