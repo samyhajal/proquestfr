@@ -260,7 +260,7 @@ table:last-child {
 
 .heading-section,
 .heading-lead {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .heading-section:last-child,
 .heading-lead:last-child {
@@ -4543,6 +4543,7 @@ div[class*="box-flat"].box-flat-alt hr {
   margin: 0;
   width: 100%;
   height: auto;
+  /* height: 125%; */
   border-radius: 0;
   flex-shrink: 0;
   min-width: 100%;
@@ -7829,4 +7830,14 @@ h3.heading-lead + .lead {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.list li {
+  list-style-type: circle;
+}
+
+@media only screen and (min-width: 988px) {
+  .title h3 {
+    padding: 10px 0;
+  }
 }
