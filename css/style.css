@@ -7835,9 +7835,3 @@ h3.heading-lead + .lead {
 .list li {
   list-style-type: circle;
 }
-
-@media only screen and (min-width: 988px) {
-  .title h3 {
-    padding: 10px 0;
-  }
-}
