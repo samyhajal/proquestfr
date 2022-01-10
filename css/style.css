@@ -7835,3 +7835,49 @@ h3.heading-lead + .lead {
 .list li {
   list-style-type: circle;
 }
+
+.projects-pad {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.flags {
+  height: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  border-radius: 0;
+}
+
+#flags {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#flags h4 {
+  padding-left: 2rem;
+}
+
+.projects {
+  margin-left: 3rem;
+}
+
+.country-sep {
+  padding-bottom: 4rem;
+}
+
+.continent-first {
+  padding-bottom: 1rem;
+  font-size: 25px;
+}
+
+.continent {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 25px;
+}
+
+.separator {
+  border-top: 1px solid lightgray !important;
+  text-align: left;
+  margin-left: 0;
+}
