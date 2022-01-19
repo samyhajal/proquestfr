@@ -1945,7 +1945,7 @@ form label.error {
   opacity: 1;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 12px auto;
+  background-size: 28px auto;
 }
 .owl-nav .owl-prev:hover,
 .owl-nav .owl-next:hover {
@@ -1958,26 +1958,26 @@ form label.error {
 }
 .owl-nav .owl-next {
   right: -50px;
-  background-image: url(../image/arrow-next-g.png);
+  background-image: url(../image/arrow-next.png);
 }
 .light .owl-nav .owl-next,
 .box-s3 .owl-nav .owl-next,
 .box-s4 .owl-nav .owl-next,
 .container-fluid .owl-nav .owl-next {
-  background-image: url(../image/arrow-next-w.png);
+  background-image: url(../image/arrow-next.png);
 }
 .container-fluid .owl-nav .owl-next {
   right: 10px;
 }
 .owl-nav .owl-prev {
   left: -50px;
-  background-image: url(../image/arrow-prev-g.png);
+  background-image: url(../image/arrow_prev.png);
 }
 .light .owl-nav .owl-prev,
 .box-s3 .owl-nav .owl-prev,
 .box-s4 .owl-nav .owl-prev,
 .container-fluid .owl-nav .owl-prev {
-  background-image: url(../image/arrow-prev-w.png);
+  background-image: url(../image/arrow_prev.png);
 }
 .container-fluid .owl-nav .owl-prev {
   left: 10px;
@@ -7826,10 +7826,10 @@ h3.heading-lead + .lead {
   margin-bottom: 25px;
 }
 
-.client-logos {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.client-logos img {
+  vertical-align: middle;
+  padding: 2rem 2rem;
+  /* max-height: 100px; */
 }
 
 .list li {
@@ -7880,4 +7880,12 @@ h3.heading-lead + .lead {
   border-top: 1px solid lightgray !important;
   text-align: left;
   margin-left: 0;
+}
+
+.award {
+  height: 100px;
+}
+
+.news-award {
+  margin-top: -15px;
 }
