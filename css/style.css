@@ -2265,7 +2265,7 @@ form label.error {
 }
 .navbar-nav > li.quote-btn {
   margin-left: 12px;
-  float: right;
+  /* float: right; */
 }
 .navbar-nav > li.quote-btn .btn {
   padding: 12px 24px;
@@ -7904,4 +7904,16 @@ h3.heading-lead + .lead {
   margin: 0;
   align-self: center;
   margin-right: 2rem;
+}
+
+.lang-nav {
+  margin-left: 4rem;
+  display: flex !important;
+  justify-content: space-between;
+  min-width: 12rem;
+  left: 163px;
+}
+
+.lang-nav a {
+  padding-top: 47px !important;
 }
