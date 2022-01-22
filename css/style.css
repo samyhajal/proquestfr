@@ -2004,7 +2004,7 @@ form label.error {
 .site-header .navbar-brand img {
   width: auto;
   max-width: 100%;
-  max-height: 60px;
+  max-height: 100px;
 }
 .site-header .navbar-header .quote-btn {
   display: none;
@@ -2461,11 +2461,11 @@ form label.error {
   padding: 0;
 }
 .header-s1 .navbar-nav > li > a {
-  padding-top: 30px;
+  padding-top: 53px;
   padding-bottom: 30px;
 }
 .header-s1 .navbar-nav > li.quote-btn {
-  margin-top: 16px;
+  margin-top: 38px;
 }
 .header-s1 .navbar .container {
   position: relative;
@@ -5905,6 +5905,10 @@ div[class*="box-flat"].box-flat-alt hr {
   }
 }
 @media only screen and (max-width: 991px) {
+  .list {
+    margin-left: 2rem;
+  }
+
   body {
     font-size: 14px;
     -webkit-text-size-adjust: 100%;
@@ -6093,7 +6097,8 @@ div[class*="box-flat"].box-flat-alt hr {
     margin-top: 10px;
   }
   .site-header .navbar-brand img {
-    max-height: 40px;
+    max-height: 76px;
+    margin-left: 2rem;
   }
   .header-s2 .navbar-collapse,
   .header-s3 .navbar-collapse {
@@ -6325,11 +6330,11 @@ div[class*="box-flat"].box-flat-alt hr {
     font-size: 11px;
   }
   .header-s1 .navbar-nav > li > a {
-    padding-top: 20px;
+    padding-top: 38px;
     padding-bottom: 20px;
   }
   .header-s1 .navbar-nav > li.quote-btn {
-    margin-top: 10px;
+    margin-top: 28px;
   }
   .header-s1.is-transparent .navbar-nav > li > a:not(.btn):before {
     left: 6px;
@@ -6649,7 +6654,7 @@ div[class*="box-flat"].box-flat-alt hr {
   }
   .header-s1 .navbar-toggle {
     float: right;
-    margin: 12px 15px 12px 0;
+    margin: 25px 25px 25px 0;
   }
   .header-s1 .navbar-header {
     background: none;
@@ -7888,4 +7893,15 @@ h3.heading-lead + .lead {
 
 .news-award {
   margin-top: -15px;
+}
+
+.proj-list {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.proj-list p {
+  margin: 0;
+  align-self: center;
+  margin-right: 2rem;
 }
